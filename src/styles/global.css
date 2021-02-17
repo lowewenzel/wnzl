@@ -1,0 +1,31 @@
+@import '~@fontsource/playfair-display/index.css';
+@import '~@fontsource/yrsa/index.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Yrsa, Georgia, Cambria, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f3;
+  color: #414042;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: inherit;
+  text-transform: none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
