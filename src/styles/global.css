@@ -14,9 +14,9 @@ body {
   font-family: Yrsa, Georgia, Cambria, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f2f2f3;
-  color: #414042;
+  background-color: #ffffff;
   font-weight: 300;
+  @apply text-primary;
 }
 
 * {

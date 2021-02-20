@@ -19,7 +19,19 @@ module.exports = {
       bold: 900,
       regular: 300,
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#2f3640',
+        },
+      },
+      zIndex: {
+        '-1': '-1',
+      },
+      fontSize: {
+        '7.5xl': '5.5rem',
+      },
+    },
   },
   variants: {
     extend: {},
