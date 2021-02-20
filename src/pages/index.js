@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
 import styled, { keyframes } from 'styled-components';
+import { motion } from 'framer-motion';
 
 import Header from '../components/Header';
 
@@ -24,7 +25,6 @@ const float = keyframes`
 `;
 
 const FloatingWenzel = styled.img`
-  width: 75%;
   min-width: 37rem;
   animation: ${float} 6s ease-in-out infinite;
 `;
@@ -69,6 +69,8 @@ const IndexPage = () => {
                     hi i'm wenzel lowe
                   </h1>
                   <HighlightedH3
+                    as={motion.h3}
+                    whileHover={{ scale: 1.1, rotate: -1 }}
                     className='xl:text-5xl lg:text-4xl ml-6 mb-6'
                     colorOne='#395c6b'
                     colorTwo='#39a0ed'
@@ -77,6 +79,8 @@ const IndexPage = () => {
                   </HighlightedH3>
                   <br />
                   <HighlightedH3
+                    as={motion.h3}
+                    whileHover={{ scale: 1.1, rotate: -1 }}
                     className='xl:text-5xl lg:text-4xl ml-6 mb-6'
                     colorOne='#9C88FF'
                     colorTwo='#9C88FF'
@@ -85,6 +89,8 @@ const IndexPage = () => {
                   </HighlightedH3>
                   <br />
                   <HighlightedH3
+                    as={motion.h3}
+                    whileHover={{ scale: 1.1, rotate: -1 }}
                     className='xl:text-5xl lg:text-4xl ml-6 mb-6'
                     colorOne='#13C4A3'
                     colorTwo='#13C4A3'

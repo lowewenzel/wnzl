@@ -26,7 +26,7 @@ module.exports = {
         },
       },
       zIndex: {
-        '-1': '-1',
+        '-1': '-10',
       },
       fontSize: {
         '7.5xl': '5.5rem',
